@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@std/esm": "^0.26.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }
