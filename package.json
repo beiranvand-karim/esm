@@ -1,17 +1,17 @@
 {
-  "name": "mjstest",
+  "name": "esm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node -r @std/esm index.mjs"
+    "start": " node -r esm index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@std/esm": "^0.26.0"
+    "esm": "^3.2.25"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
